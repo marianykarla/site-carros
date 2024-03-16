@@ -35,6 +35,15 @@ h1 {
     font-weight: bolder;
 }
 
+.titulo {
+    background-image: linear-gradient(to bottom, rgb(63, 132, 140), transparent);
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    width: 800px;
+    height: 60px;
+}
+
 img {
     max-width: 100%;
     display: block;
