@@ -36,11 +36,11 @@ h1 {
 }
 
 .titulo {
-    background-image: linear-gradient(to bottom, rgb(63, 132, 140), transparent);
+    background-image: linear-gradient(to bottom, rgb(84, 159, 167), transparent);
     display: flex;
     margin: auto;
     border-radius: 10px;
-    width: 800px;
+    width: 150px;
     height: 60px;
 }
 
