@@ -85,6 +85,7 @@ div p {
     flex-wrap: wrap;
     padding: 20px;
     text-align: center;
+    bottom: 0px;
 }
 
 #menuToggle {
