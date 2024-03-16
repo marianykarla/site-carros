@@ -17,30 +17,38 @@ body {
 .header a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 
 a:hover {
     background-color: rgb(110, 182, 182);
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 h1 {
-    font-size: 200%;
-    text-align: center;  
+    font-size: 220%;
+    text-align: center;
     color: white; 
+    margin: auto;
+    padding: 10px;
+    font-weight: bolder;
 }
 
 img {
     max-width: 100%;
     display: block;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.529);
+    border-radius: 8px;
 }
 
-p {
+div p {
     text-align: center;
     font-size: 1.1em;
     color: white;
-
+    background-image: linear-gradient(to top, rgb(63, 132, 140), transparent);
+    border-radius: 5px;
+    font-weight: bolder;
 }
 
 .header {
@@ -49,7 +57,9 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.464);
 }
+
 
 .menu {
     display: flex;
@@ -65,6 +75,7 @@ p {
     color: white;
     flex-wrap: wrap;
     padding: 20px;
+    text-align: center;
 }
 
 #menuToggle {
