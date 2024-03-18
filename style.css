@@ -31,12 +31,11 @@ h1 {
     text-align: center;
     color: white; 
     margin: auto;
-    padding: 10px;
+    padding: 5px;
     font-weight: bolder;
 }
 
 .titulo {
-    background-image: linear-gradient(to bottom, rgb(84, 159, 167), transparent);
     display: flex;
     margin: auto;
     border-radius: 10px;
@@ -77,6 +76,12 @@ div p {
 .menu li {
     list-style: none;
     margin-left: 20px;
+}
+
+section div a:hover {
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
 }
 
 .footer {
@@ -124,5 +129,46 @@ div p {
 @media screen and (max-width:800px) {
     .grid {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width:700px) {   
+    
+    .logo {
+        font-size: 130%;
+        margin-top: 8px;
+    }
+    .nav-item {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open {
+        display: block;
     }
 }

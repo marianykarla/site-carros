@@ -12,15 +12,29 @@
 </head>
 <body>
     <header class="header">
-        <a href="#">Menu</a>
+        <div class="logo"><a href="#">Menu</a></div>
         <nav>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a class="nav-item" href="#">Home</a></li>
+                <li><a class="nav-item" href="#">Serviços</a></li>
+                <li><a class="nav-item" href="#">Contatos</a></li>
             </ul>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg" alt=""></button>
+            </div>          
         </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a class="nav-item" href="#">Home</a></li>
+                <li><a class="nav-item" href="#">Serviços</a></li>
+                <li><a class="nav-item" href="#">Contatos</a></li>
+            </ul>
+        </div>
     </header>
+
+    <script src="script.js"></script>
 
     <div class="titulo">
         <h1>Carros</h1>
@@ -28,32 +42,32 @@
 
     <section class="grid">
         <div class="card">
-            <img src="img05.jpg" alt="">
+            <a href="https://www.audi.com.br/br/web/pt.html" target="_blank" rel="external"><img src="img05.jpg" alt=""></a>
             <p>Audi</p>
         </div>
 
         <div class="card">
-            <img src="img02.jpg" alt="">
+            <a href="https://www.webmotors.com.br/carros/estoque/ford/mustang" target="_blank" rel="external"><img src="img02.jpg" alt=""></a>
             <p>Mustang</p>
         </div>
 
         <div class="card">
-            <img src="img03.jpg" alt="">
+            <a href="https://www.porsche.com/brazil/pt/models/" target="_blank" rel="external"><img src="img03.jpg" alt=""></a>
             <p>Porsche</p>
         </div>
 
         <div class="card">
-            <img src="img04.jpg" alt="">
+            <a href="https://www.bugatti.com/" target="_blank" rel="external"><img src="img04.jpg" alt=""></a>
             <p>Bugatti</p>
         </div>
 
         <div class="card">
-            <img src="img01.jpg" alt="">
+            <a href="https://www2.mercedes-benz.com.br/?group=all&subgroup=see-all&view=BODYTYPE" target="_blank" rel="external"><img src="img01.jpg" alt=""></a>
             <p>Mercedes</p>
         </div>
 
         <div class="card">
-            <img src="img06.jpg" alt="">
+            <a href="https://www.bmw.com.br/pt/index.html" target="_blank" rel="external"><img src="img06.jpg" alt=""></a>
             <p>BMW</p>
         </div>
     </section>
